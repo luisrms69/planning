@@ -1,0 +1,51 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2022-12-02 22:41:41.432331",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "description",
+  "section_break_2",
+  "status",
+  "fecha_compromiso"
+ ],
+ "fields": [
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "status",
+   "options": "Abierto\nCerrado"
+  },
+  {
+   "fieldname": "fecha_compromiso",
+   "fieldtype": "Date",
+   "label": "Fecha Compromiso"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-12-02 22:41:41.432331",
+ "modified_by": "Administrator",
+ "module": "Planeacion Estrategica",
+ "name": "Tareas OKR",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

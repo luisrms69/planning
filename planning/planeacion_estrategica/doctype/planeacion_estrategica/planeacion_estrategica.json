@@ -1,0 +1,93 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:PLANEACION-{YY}-{###}",
+ "creation": "2022-12-02 22:19:51.880921",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "elementos_programativos_section",
+  "mision",
+  "vision",
+  "valores",
+  "diagnostico_section",
+  "fodas",
+  "ejecucion_de_la_estrategia_section",
+  "objetivos_de_largo_plazo"
+ ],
+ "fields": [
+  {
+   "fieldname": "mision",
+   "fieldtype": "Small Text",
+   "label": "Mision"
+  },
+  {
+   "fieldname": "vision",
+   "fieldtype": "Small Text",
+   "label": "Vision"
+  },
+  {
+   "fieldname": "valores",
+   "fieldtype": "Markdown Editor",
+   "label": "Valores"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "elementos_programativos_section",
+   "fieldtype": "Section Break",
+   "label": "Elementos Programativos"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "diagnostico_section",
+   "fieldtype": "Section Break",
+   "label": "Diagnostico"
+  },
+  {
+   "fieldname": "fodas",
+   "fieldtype": "Table",
+   "label": "FODAS",
+   "options": "Elemento FODA"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "ejecucion_de_la_estrategia_section",
+   "fieldtype": "Section Break",
+   "label": "Ejecucion de la Estrategia"
+  },
+  {
+   "fieldname": "objetivos_de_largo_plazo",
+   "fieldtype": "Table",
+   "label": "Objetivos de Largo Plazo",
+   "options": "LTO Objetivo Largo Plazo"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-12-02 22:57:27.249245",
+ "modified_by": "Administrator",
+ "module": "Planeacion Estrategica",
+ "name": "Planeacion Estrategica",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

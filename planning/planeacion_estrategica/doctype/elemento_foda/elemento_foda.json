@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-12-02 22:23:46.891157",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "descripcion",
+  "foda",
+  "status",
+  "ambito"
+ ],
+ "fields": [
+  {
+   "fieldname": "descripcion",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Descripcion",
+   "reqd": 1
+  },
+  {
+   "fieldname": "foda",
+   "fieldtype": "Select",
+   "label": "FODA",
+   "options": "Fortaleza\nOportunidad\nDebilidad\nAmenaza"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Actual\nDeseado"
+  },
+  {
+   "fieldname": "ambito",
+   "fieldtype": "Select",
+   "label": "Ambito",
+   "options": "Organizacion\nOperacion o Procesos\nMercado (ventas, marketing)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-12-02 22:45:19.303827",
+ "modified_by": "Administrator",
+ "module": "Planeacion Estrategica",
+ "name": "Elemento FODA",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

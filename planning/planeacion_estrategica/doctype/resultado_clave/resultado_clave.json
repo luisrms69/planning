@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2022-12-02 22:39:14.165867",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "descripcion",
+  "parametro_de_medicion",
+  "responsables",
+  "section_break_4",
+  "tareas"
+ ],
+ "fields": [
+  {
+   "fieldname": "descripcion",
+   "fieldtype": "Data",
+   "label": "Descripcion"
+  },
+  {
+   "fieldname": "parametro_de_medicion",
+   "fieldtype": "Data",
+   "label": "Parametro de Medicion"
+  },
+  {
+   "fieldname": "responsables",
+   "fieldtype": "Table MultiSelect",
+   "label": "Responsables",
+   "options": "Responsables OKR"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tareas",
+   "fieldtype": "Table",
+   "label": "Tareas",
+   "options": "Tareas OKR"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-12-02 22:42:04.962659",
+ "modified_by": "Administrator",
+ "module": "Planeacion Estrategica",
+ "name": "Resultado Clave",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

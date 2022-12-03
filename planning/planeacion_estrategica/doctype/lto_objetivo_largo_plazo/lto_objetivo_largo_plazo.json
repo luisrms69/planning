@@ -1,0 +1,100 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:LTO-{MM}-{YY}-{###}",
+ "creation": "2022-12-02 22:28:52.786138",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "descripcion_del_objetivo_de_largo_plazo",
+  "section_break_2",
+  "objetivo_mercado",
+  "objetivo_operacion_y_procesos",
+  "objetivo_organizacion",
+  "horizonte_y_prioridad_section",
+  "horizonte_en_a\u00f1os",
+  "column_break_8",
+  "prioridad",
+  "okrs_section",
+  "objetivos_y_resultados_clave"
+ ],
+ "fields": [
+  {
+   "fieldname": "descripcion_del_objetivo_de_largo_plazo",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Descripcion del Objetivo de Largo Plazo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "objetivo_mercado",
+   "fieldtype": "Small Text",
+   "label": "Objetivo Mercado"
+  },
+  {
+   "fieldname": "objetivo_operacion_y_procesos",
+   "fieldtype": "Small Text",
+   "label": "Objetivo Operacion y Procesos"
+  },
+  {
+   "fieldname": "objetivo_organizacion",
+   "fieldtype": "Small Text",
+   "label": "Objetivo Organizacion"
+  },
+  {
+   "fieldname": "horizonte_en_a\u00f1os",
+   "fieldtype": "Int",
+   "label": "Horizonte en A\u00f1os"
+  },
+  {
+   "fieldname": "prioridad",
+   "fieldtype": "Rating",
+   "in_list_view": 1,
+   "label": "Prioridad",
+   "options": "3",
+   "reqd": 1
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break",
+   "label": "Alcance en Mercado, Procesos y Organizacion"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "horizonte_y_prioridad_section",
+   "fieldtype": "Section Break",
+   "label": "Horizonte y Prioridad"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "okrs_section",
+   "fieldtype": "Section Break",
+   "label": "OKRs"
+  },
+  {
+   "fieldname": "objetivos_y_resultados_clave",
+   "fieldtype": "Table",
+   "label": "Objetivos y Resultados Clave",
+   "options": "OKR Objetivos y Resultados Clave"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-12-02 23:02:50.002475",
+ "modified_by": "Administrator",
+ "module": "Planeacion Estrategica",
+ "name": "LTO Objetivo Largo Plazo",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

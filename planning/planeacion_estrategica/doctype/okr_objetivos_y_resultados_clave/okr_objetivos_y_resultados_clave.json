@@ -1,0 +1,46 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-12-02 22:39:27.131659",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "descripcion",
+  "alineacion_a_objetivo",
+  "resultados_clave"
+ ],
+ "fields": [
+  {
+   "fieldname": "descripcion",
+   "fieldtype": "Small Text",
+   "label": "Descripcion"
+  },
+  {
+   "fieldname": "alineacion_a_objetivo",
+   "fieldtype": "Link",
+   "label": "Alineacion a Objetivo",
+   "options": "LTO Objetivo Largo Plazo"
+  },
+  {
+   "fieldname": "resultados_clave",
+   "fieldtype": "Table",
+   "label": "Resultados Clave",
+   "options": "Resultado Clave"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-12-02 22:56:41.353853",
+ "modified_by": "Administrator",
+ "module": "Planeacion Estrategica",
+ "name": "OKR Objetivos y Resultados Clave",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
