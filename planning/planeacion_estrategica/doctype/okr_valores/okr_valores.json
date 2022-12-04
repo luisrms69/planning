@@ -1,29 +1,29 @@
 {
  "actions": [],
- "autoname": "autoincrement",
- "creation": "2022-12-02 22:38:57.371476",
+ "autoname": "field:descripcion",
+ "creation": "2022-12-04 11:57:41.266878",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "responsibles"
+  "descripcion"
  ],
  "fields": [
   {
-   "fieldname": "responsibles",
-   "fieldtype": "Link",
-   "label": "Responsable",
-   "options": "User"
+   "fieldname": "descripcion",
+   "fieldtype": "Data",
+   "label": "Descripcion",
+   "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2022-12-04 12:58:59.828377",
+ "modified": "2022-12-04 11:57:41.266878",
  "modified_by": "Administrator",
  "module": "Planeacion Estrategica",
- "name": "Responsables OKR",
- "naming_rule": "Autoincrement",
+ "name": "OKR Valores",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [],
  "sort_field": "modified",

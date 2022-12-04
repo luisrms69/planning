@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestLTOObjetivoLargoPlazo(FrappeTestCase):
+class TestOKRLTOObjetivoLargoPlazo(FrappeTestCase):
 	pass

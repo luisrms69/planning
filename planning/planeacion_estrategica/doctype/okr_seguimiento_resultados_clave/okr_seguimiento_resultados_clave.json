@@ -1,14 +1,16 @@
 {
  "actions": [],
  "autoname": "autoincrement",
- "creation": "2022-12-02 22:39:14.165867",
+ "creation": "2022-12-04 12:29:02.210880",
+ "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "descripcion",
+  "column_break_5",
   "parametro_de_medicion",
-  "responsables",
+  "avance",
   "section_break_4",
   "tareas"
  ],
@@ -19,15 +21,18 @@
    "label": "Descripcion"
   },
   {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
    "fieldname": "parametro_de_medicion",
    "fieldtype": "Data",
    "label": "Parametro de Medicion"
   },
   {
-   "fieldname": "responsables",
-   "fieldtype": "Table MultiSelect",
-   "label": "Responsables",
-   "options": "Responsables OKR"
+   "fieldname": "avance",
+   "fieldtype": "Percent",
+   "label": "Avance (%)"
   },
   {
    "fieldname": "section_break_4",
@@ -41,15 +46,27 @@
   }
  ],
  "index_web_pages_for_search": 1,
- "istable": 1,
  "links": [],
- "modified": "2022-12-02 22:42:04.962659",
+ "modified": "2022-12-04 12:55:25.244934",
  "modified_by": "Administrator",
  "module": "Planeacion Estrategica",
- "name": "Resultado Clave",
+ "name": "OKR Seguimiento Resultados Clave",
  "naming_rule": "Autoincrement",
  "owner": "Administrator",
- "permissions": [],
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],

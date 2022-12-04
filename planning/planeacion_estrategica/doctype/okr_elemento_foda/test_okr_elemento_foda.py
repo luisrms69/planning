@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestElementoFODA(FrappeTestCase):
+class TestOKRElementoFODA(FrappeTestCase):
 	pass

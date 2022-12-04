@@ -14,8 +14,8 @@
   "valores",
   "diagnostico_section",
   "fodas",
-  "ejecucion_de_la_estrategia_section",
-  "objetivos_de_largo_plazo"
+  "seguimiento_a_ejecucion_section",
+  "lto_objetivo_largo_plazo"
  ],
  "fields": [
   {
@@ -29,9 +29,11 @@
    "label": "Vision"
   },
   {
+   "columns": 1,
    "fieldname": "valores",
-   "fieldtype": "Markdown Editor",
-   "label": "Valores"
+   "fieldtype": "Table",
+   "label": "Valores",
+   "options": "OKR Valores"
   },
   {
    "collapsible": 1,
@@ -46,27 +48,28 @@
    "label": "Diagnostico"
   },
   {
+   "columns": 4,
    "fieldname": "fodas",
    "fieldtype": "Table",
    "label": "FODAS",
-   "options": "Elemento FODA"
+   "options": "OKR Elemento FODA"
   },
   {
    "collapsible": 1,
-   "fieldname": "ejecucion_de_la_estrategia_section",
+   "fieldname": "seguimiento_a_ejecucion_section",
    "fieldtype": "Section Break",
-   "label": "Ejecucion de la Estrategia"
+   "label": "Objetivos"
   },
   {
-   "fieldname": "objetivos_de_largo_plazo",
+   "fieldname": "lto_objetivo_largo_plazo",
    "fieldtype": "Table",
-   "label": "Objetivos de Largo Plazo",
-   "options": "LTO Objetivo Largo Plazo"
+   "label": "Objetivos Largo Plazo",
+   "options": "OKR LTO Objetivo Largo Plazo"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-12-02 22:57:27.249245",
+ "modified": "2022-12-04 12:39:15.539737",
  "modified_by": "Administrator",
  "module": "Planeacion Estrategica",
  "name": "Planeacion Estrategica",
