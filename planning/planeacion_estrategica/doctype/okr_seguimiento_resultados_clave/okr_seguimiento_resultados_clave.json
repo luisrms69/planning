@@ -1,33 +1,34 @@
 {
  "actions": [],
- "autoname": "autoincrement",
+ "autoname": "format:SEGUIIMIENTO-RESCLAVE-A\u00d1O-{YYYY}-MES-{MM}-{####}",
  "creation": "2022-12-04 12:29:02.210880",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "descripcion",
+  "objetivo_de_largo_plazo_relacionado_section",
+  "resultado_clave",
   "column_break_5",
+  "descripcion",
   "parametro_de_medicion",
-  "avance",
+  "fecha_comporomiso",
+  "section_break_3",
   "section_break_4",
+  "avance",
   "tareas"
  ],
  "fields": [
-  {
-   "fieldname": "descripcion",
-   "fieldtype": "Data",
-   "label": "Descripcion"
-  },
   {
    "fieldname": "column_break_5",
    "fieldtype": "Column Break"
   },
   {
+   "fetch_from": "resultado_clave.parametro_de_medicion",
    "fieldname": "parametro_de_medicion",
    "fieldtype": "Data",
-   "label": "Parametro de Medicion"
+   "label": "Parametro de Medicion",
+   "read_only": 1
   },
   {
    "fieldname": "avance",
@@ -43,15 +44,45 @@
    "fieldtype": "Table",
    "label": "Tareas",
    "options": "Tareas OKR"
+  },
+  {
+   "fieldname": "resultado_clave",
+   "fieldtype": "Link",
+   "label": "Selecciona el Resultado Clave",
+   "options": "OKR Resultado Clave"
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "resultado_clave.descripcion",
+   "fieldname": "descripcion",
+   "fieldtype": "Data",
+   "label": "Descripcion",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "resultado_clave.fecha_compromiso",
+   "fieldname": "fecha_comporomiso",
+   "fieldtype": "Data",
+   "label": "Fecha Comporomiso",
+   "read_only": 1
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "objetivo_de_largo_plazo_relacionado_section",
+   "fieldtype": "Section Break",
+   "label": "Resultado Clave"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-12-04 12:55:25.244934",
+ "modified": "2022-12-04 13:28:43.542431",
  "modified_by": "Administrator",
  "module": "Planeacion Estrategica",
  "name": "OKR Seguimiento Resultados Clave",
- "naming_rule": "Autoincrement",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

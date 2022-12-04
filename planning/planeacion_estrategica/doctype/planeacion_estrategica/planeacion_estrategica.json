@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:PLANEACION-{YY}-{###}",
+ "autoname": "format:PLANEACION-A\u00d1O-{YYYY}-DELMES-{MM}-{###}",
  "creation": "2022-12-02 22:19:51.880921",
  "default_view": "List",
  "doctype": "DocType",
@@ -69,7 +69,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-12-04 12:39:15.539737",
+ "modified": "2022-12-04 13:23:35.641732",
  "modified_by": "Administrator",
  "module": "Planeacion Estrategica",
  "name": "Planeacion Estrategica",

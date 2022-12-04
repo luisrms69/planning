@@ -1,20 +1,21 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:OKR-{###}-A\u00f1o-{YY}-Mes-{MM}",
+ "autoname": "format:OKR TRIMESTRAL {###} A\u00f1o {YYYY} Mes {MM}",
  "creation": "2022-12-02 22:39:27.131659",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "objetivo_de_largo_plazo_relacionado_section",
   "lto_relacionado",
-  "descripcion",
-  "column_break_3",
   "descripcion_objevito_largo_plazo",
+  "column_break_3",
   "horizonte_en_a\u00f1os_objetivo_largo_plazo",
   "prioridad_objetivo_largo_plazo",
   "responsabilidades_section",
+  "descripcion",
   "responsibles",
   "column_break_9",
   "fecha_inicio",
@@ -37,7 +38,7 @@
   {
    "fieldname": "lto_relacionado",
    "fieldtype": "Link",
-   "label": "Selecciona el Objetivo Largo Plazo Realacionado",
+   "label": "Selecciona el Objetivo Largo Plazo Relacionado",
    "options": "OKR LTO Objetivo Largo Plazo"
   },
   {
@@ -66,8 +67,10 @@
    "fieldtype": "Column Break"
   },
   {
+   "collapsible": 1,
    "fieldname": "section_break_7",
-   "fieldtype": "Section Break"
+   "fieldtype": "Section Break",
+   "label": "Resultados Clave"
   },
   {
    "fieldname": "responsibles",
@@ -76,9 +79,10 @@
    "options": "Responsables OKR"
   },
   {
+   "collapsible": 1,
    "fieldname": "responsabilidades_section",
    "fieldtype": "Section Break",
-   "label": "Responsabilidades"
+   "label": "Objetivo Trimestral OKR"
   },
   {
    "fieldname": "fecha_inicio",
@@ -87,17 +91,23 @@
   },
   {
    "fieldname": "fecha_compromiso",
-   "fieldtype": "Data",
+   "fieldtype": "Date",
    "label": "Fecha Compromiso"
   },
   {
    "fieldname": "column_break_9",
    "fieldtype": "Column Break"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "objetivo_de_largo_plazo_relacionado_section",
+   "fieldtype": "Section Break",
+   "label": "Objetivo de Largo Plazo Relacionado"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-12-04 12:50:28.355603",
+ "modified": "2022-12-04 13:34:37.177484",
  "modified_by": "Administrator",
  "module": "Planeacion Estrategica",
  "name": "OKR Objetivos y Resultados Clave",

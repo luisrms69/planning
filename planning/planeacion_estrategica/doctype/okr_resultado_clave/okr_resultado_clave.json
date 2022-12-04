@@ -1,20 +1,14 @@
 {
  "actions": [],
- "autoname": "autoincrement",
+ "autoname": "format:RESULTADO CLAVE A\u00d1O {YYYY} MES {MM}-{####}",
  "creation": "2022-12-02 22:39:14.165867",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "descripcion",
-  "responsables",
-  "fecha_inicio",
-  "fecha_compromiso",
-  "column_break_5",
   "parametro_de_medicion",
-  "avance",
-  "section_break_4",
-  "tareas"
+  "avance"
  ],
  "fields": [
   {
@@ -28,49 +22,19 @@
    "label": "Parametro de Medicion"
   },
   {
-   "fieldname": "responsables",
-   "fieldtype": "Table MultiSelect",
-   "label": "Responsables",
-   "options": "Responsables OKR"
-  },
-  {
-   "fieldname": "section_break_4",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "tareas",
-   "fieldtype": "Table",
-   "label": "Tareas",
-   "options": "Tareas OKR"
-  },
-  {
-   "fieldname": "fecha_inicio",
-   "fieldtype": "Date",
-   "label": "Fecha Inicio"
-  },
-  {
-   "fieldname": "fecha_compromiso",
-   "fieldtype": "Date",
-   "label": "Fecha Compromiso"
-  },
-  {
-   "fieldname": "column_break_5",
-   "fieldtype": "Column Break"
-  },
-  {
    "fieldname": "avance",
-   "fieldtype": "Data",
-   "label": "Avance"
+   "fieldtype": "Percent",
+   "label": "Avance (%)"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2022-12-04 11:04:36.738937",
+ "modified": "2022-12-04 13:38:35.879492",
  "modified_by": "Administrator",
  "module": "Planeacion Estrategica",
  "name": "OKR Resultado Clave",
- "naming_rule": "Autoincrement",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [],
  "sort_field": "modified",
