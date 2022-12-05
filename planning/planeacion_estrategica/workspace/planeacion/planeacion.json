@@ -1,0 +1,72 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Planeacion</span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Seguimiento Planeacion\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Planeacion Largo Plazo\",\"col\":4}}]",
+ "creation": "2022-12-05 13:58:59.672346",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "milestone",
+ "idx": 0,
+ "label": "Planeacion",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Seguimiento Planeacion",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "OKR Trimestrales",
+   "link_count": 0,
+   "link_to": "OKR Objetivos y Resultados Clave",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Seguimiento OKR Trimestrales",
+   "link_count": 0,
+   "link_to": "OKR Seguimiento Resultados Clave",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Planeacion Largo Plazo",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Ejercicios Planeacion",
+   "link_count": 0,
+   "link_to": "Planeacion Estrategica",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2022-12-05 14:04:45.600327",
+ "modified_by": "Administrator",
+ "module": "Planeacion Estrategica",
+ "name": "Planeacion",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 40.0,
+ "shortcuts": [],
+ "title": "Planeacion"
+}
