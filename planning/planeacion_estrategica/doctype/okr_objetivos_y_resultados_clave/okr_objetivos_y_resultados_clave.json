@@ -75,7 +75,7 @@
   {
    "fieldname": "responsibles",
    "fieldtype": "Table MultiSelect",
-   "label": "Responsables",
+   "label": "Selecciona Responsables",
    "options": "Responsables OKR"
   },
   {
@@ -107,7 +107,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-12-04 13:34:37.177484",
+ "modified": "2022-12-05 11:06:22.495700",
  "modified_by": "Administrator",
  "module": "Planeacion Estrategica",
  "name": "OKR Objetivos y Resultados Clave",
