@@ -1,0 +1,34 @@
+{
+ "add_total_row": 0,
+ "columns": [
+  {
+   "fieldname": "lto_objetivo_largo_plazo",
+   "fieldtype": "Data",
+   "label": "Objetivo de Largo Plazo",
+   "width": 0
+  }
+ ],
+ "creation": "2022-12-05 16:45:41.668378",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{}",
+ "modified": "2022-12-05 16:46:28.281989",
+ "modified_by": "Administrator",
+ "module": "Planeacion Estrategica",
+ "name": "Planeacion Estrategica",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Planeacion Estrategica",
+ "report_name": "Planeacion Estrategica",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}
