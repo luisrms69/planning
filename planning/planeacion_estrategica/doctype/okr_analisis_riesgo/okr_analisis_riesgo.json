@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:RIESGO {#####} - {description}",
+ "creation": "2022-12-13 12:42:51.291338",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "descripcion",
+  "probability",
+  "consequence",
+  "medidas",
+  "responsible"
+ ],
+ "fields": [
+  {
+   "fieldname": "descripcion",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Descripcion",
+   "reqd": 1
+  },
+  {
+   "fieldname": "probability",
+   "fieldtype": "Select",
+   "label": "Probabilidad",
+   "options": "P0 - Casi Nula\nP1 - Baja\nP2 - Media\nP3 - Alta o muy Ala",
+   "reqd": 1
+  },
+  {
+   "fieldname": "consequence",
+   "fieldtype": "Select",
+   "label": "Consecuencias",
+   "options": "C0- Afectacion local baja\nC1 - Afectacion local alta o Afectacion global baja\nC2 - Afectacion global moderada o alta\nC3 - Peligro de cierre de negocios o empresa"
+  },
+  {
+   "fieldname": "medidas",
+   "fieldtype": "Text",
+   "label": "Medidas Administracion"
+  },
+  {
+   "fieldname": "responsible",
+   "fieldtype": "Link",
+   "label": "Responsable Atencion",
+   "options": "User"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-12-13 12:56:02.747270",
+ "modified_by": "Administrator",
+ "module": "Planeacion Estrategica",
+ "name": "OKR Analisis Riesgo",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

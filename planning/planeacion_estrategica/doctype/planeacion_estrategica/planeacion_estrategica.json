@@ -14,6 +14,7 @@
   "valores",
   "diagnostico_section",
   "fodas",
+  "analisis_riesgo",
   "seguimiento_a_ejecucion_section",
   "lto_objetivo_largo_plazo"
  ],
@@ -65,11 +66,17 @@
    "fieldtype": "Table",
    "label": "Objetivos Largo Plazo",
    "options": "OKR LTO Objetivo Largo Plazo"
+  },
+  {
+   "fieldname": "analisis_riesgo",
+   "fieldtype": "Table",
+   "label": "Riesgos identificados en el ejercicio",
+   "options": "OKR Analisis Riesgo"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-12-04 13:23:35.641732",
+ "modified": "2022-12-13 12:44:12.130043",
  "modified_by": "Administrator",
  "module": "Planeacion Estrategica",
  "name": "Planeacion Estrategica",
